@@ -1,16 +1,16 @@
-/* Custom CSS for black theme */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 body {
-  background-color:#120924;
+  background-color: #0a0e2a;
   color: #fff;
   margin: 0;
   padding: 0;
+  font-family: 'Poppins', sans-serif; 
 }
 
-
-
 #header {
-  background-color: #120924;
-  
+  background-color: #0a0e2a;
   padding: 20px;
   text-align: center;
 }
@@ -18,8 +18,9 @@ body {
 #header h1 {
   margin: 0;
   font-size: 24px;
-  font-family: 'Arial', sans-serif;
-  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600; 
+  color: #2eb9df;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -37,11 +38,13 @@ body {
 
 #content h1 {
   font-size: 24px;
-  cursor:pointer;
+  cursor: pointer;
   text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
   line-height: 1.5;
   margin-bottom: 20px;
+  color: #2eb9df;
 }
 
 #searchbar {
@@ -54,50 +57,53 @@ body {
   border: none;
   border-radius: 5px;
   font-size: 16px;
+  font-family: 'Poppins', sans-serif;
   width: 300px;
-  box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
-  background-color: #222;
+  box-shadow: 0 0 5px rgba(46, 185, 223, 0.3);
+  background-color: #121a3a;
   text-align: center;
   color: #fff;
-  cursor:cell;
+  cursor: cell;
 }
 
-a{
+a {
   text-decoration: none;
-  color:white;
-  width:50px;
-  height:50px;
+  color: #2eb9df;
+  width: 50px;
+  height: 50px;
   padding-right: 1px;
   padding-left: 1px;
   text-align: center;
   align-self: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 .form__input::placeholder {
   color: #aaa;
   text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
 
-.form_input:hover{
-  cursor:cell;
+.form__input:hover {
+  cursor: cell;
 }
 
 .form__input:focus {
   outline: none;
-  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 8px rgba(46, 185, 223, 0.6);
 }
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 #footer {
   position: fixed;
   left: 0;
   bottom: 0;
   border-top-width: 1px;
   border-top-style: solid;
-  border-top-color: #99ccff;
-  font-family: 'Open Sans', sans-serif;
+  border-top-color: #2eb9df;
+  font-family: 'Poppins', sans-serif;
   width: 100%;
-  height:15px;
-  background-color: #000;
+  height: 15px;
+  background-color: #070b1f;
   padding-top: 7.5px;
   padding-bottom: 10px;
   text-align: center;
@@ -107,42 +113,42 @@ a{
 
 #footer p {
   margin: 0;
+  font-weight: 400;
 }
 
 #canvas {
-    display: block;
-    position: fixed;  /* Cover the viewport */
-    top: 0;
-    left: 0;
-    width: 100vw;  /* 100% of the viewport width */
-    height: 100vh; /* 100% of the viewport height */
-    
-    pointer-events: none; /* Prevents canvas from interfering with interactions */
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
 }
 
-            #popularSites img {
-                width: 50px;
-                height: 50px;
-                margin: 10px;
-                cursor: pointer;
-                border-radius: 10px;
-                transition: transform 0.2s;
-            }
-            #popularSites img:hover {
-                transform: scale(1.1);
-            }
+#popularSites img {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
 
-            #bigTitle img {
-               width: 75vw;
-            }
+#popularSites img:hover {
+  transform: scale(1.1);
+}
 
+#bigTitle img {
+  width: 75vw;
+}
 
 .fa {
   font-size: 24px;
   margin-right: 10px;
-  color: #fff;
+  color: #2eb9df;
 }
 
 .fa:hover {
-  color: #aaa;
+  color: #5fc8e6;
 }
