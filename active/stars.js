@@ -11,8 +11,8 @@ const minSpeed = 10;
 const maxSpeed = 30;
 const minDelay = 1200;
 const maxDelay = 4200;
-const starColor = "#9E00FF";
-const trailColor = "#2EB9DF";
+const starColor = "#009eff";
+const trailColor = "#6E8CDF";
 const starWidth = 10;
 const starHeight = 1;
 
